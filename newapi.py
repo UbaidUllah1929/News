@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Feb 28 20:38:47 2022
-
-@author: dell
-"""
 
 from flask import Flask,jsonify,request
 import requests
@@ -64,3 +58,4 @@ def news1():
      
 if __name__ == "__main__":
     app.run(debug=True,port=(100))
+    
